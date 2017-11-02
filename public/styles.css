@@ -39,22 +39,60 @@ body {
   font-family: Arial, sans-serif;
   margin-top: -10px;
   margin-left: 100px;
+  margin-right: 100px;
   color: #524942;
+
 }
+
 
 h3 {
   padding-bottom: 15px;
+  color: #524942;
+  font-family: Arial, sans-serif;
 }
 
 h4 {
   padding-bottom: 8px;
+  font-family: Arial, sans-serif;
+  color: #524942;
+}
+
+h5 {
+  padding-bottom: 8px;
+  font-family: Arial, sans-serif;
+  color: #524942;
 }
 p {
   color: #524942;
   font-family: Arial, sans-serif;
   font-size: 16px;
 }
-body{margin:40px;}
+
+.todo-header {
+  background-color: #E5E2DB;
+  color: #524942;
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+#name {
+  color: #524942;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+#upload-type {
+  color: #524942;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+
+#upload {
+  margin-left: 100px;
+}
 
 .progressbar {
   margin-left: 300px;

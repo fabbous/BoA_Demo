@@ -1,6 +1,10 @@
 # BoA_Demo
 
-> Application to apply for loan 
+> Demo application for Bank of America. 
+
+> Digital portal that allows customers to apply for loan online
+
+> Leverages Box API to upload loan application
 
 ## Creator
 
@@ -8,11 +12,9 @@ Farrah Bousetta
 
 ## Usage
 
-> Some usage instructions
+1. npm install
+2. npm run react-dev
+3. npm start
 
-## Requirements
 
-## Development
-
-### Installing Dependencies
 

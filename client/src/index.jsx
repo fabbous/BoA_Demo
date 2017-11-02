@@ -5,6 +5,8 @@ import Home from './components/Home.jsx'
 import Nav from './components/Nav.jsx'
 import Content from './components/Content.jsx'
 import ProgressBar from './components/ProgressBar.jsx'
+import Upload from './components/Upload.jsx'
+import ToDo from './components/ToDo.jsx'
 
 class App extends React.Component {
   constructor(props) {
@@ -18,7 +20,8 @@ class App extends React.Component {
         <Nav />
         <Content />
         <ProgressBar />
-        <Home />
+        <ToDo/>
+        <Upload />
       </div>
     );
   }
