@@ -9,13 +9,10 @@ class Banner extends React.Component {
   render() {
     return (
       <div className="container" id="banner">
-          <h1>
-            <b>Loan Application</b>
-          </h1>
-          <hr></hr>
       </div>
     );
   }
 }
 
 export default Banner;
+
