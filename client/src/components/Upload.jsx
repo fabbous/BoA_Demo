@@ -21,11 +21,11 @@ class Upload extends React.Component {
     form.append('file', fileToUpload)
 
 
-    form.append('parent_id', '41204063991')
+    form.append('parent_id', '41430063118')
 
     $.ajax({
         url: 'https://upload.box.com/api/2.0/files/content',
-        headers: {Authorization: 'Bearer RrP0AeukCP0s1K2HQIB9vGuF7OiPjC61'},
+        headers: {Authorization: 'Bearer sq4kGHnMdxMzx1HRS6sstVlTaR2vgamE'},
         type: 'POST',
         processData: false,
         contentType: false,

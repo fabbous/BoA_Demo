@@ -23,7 +23,7 @@ body {
 
 .navbar-default {
   margin-top: 73px;
-  margin-left: 100px;
+  margin-left: 348px;
   width: 100%;
   background-color: #E5E2DB;
   width: 987px;
@@ -32,14 +32,14 @@ body {
 
 
 .intro {
-  margin-left: 120px;
+  margin-left: 250px;
 }
 
 #content {
   font-family: Arial, sans-serif;
   margin-top: -10px;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 340px;
+  margin-right: 330px;
   color: #524942;
 
 }
@@ -66,8 +66,13 @@ p {
   color: #524942;
   font-family: Arial, sans-serif;
   font-size: 16px;
+  padding-right: 140px;
 }
 
+#todo {
+  margin-right: 170px;
+
+}
 .todo-header {
   background-color: #E5E2DB;
   color: #524942;
@@ -76,6 +81,7 @@ p {
   height: 40px;
   padding-top: 10px;
   padding-left: 10px;
+  width: 980px;
 }
 
 #name {
@@ -91,7 +97,7 @@ p {
 }
 
 #upload {
-  margin-left: 100px;
+  margin-left: 340px;
 }
 
 .progressbar {
@@ -124,7 +130,8 @@ p {
 
 
 hr {
-  width: 100%;
-  margin-left: -125px;
+  width: 71%;
+  margin-left: 50px;
+
 
 }
