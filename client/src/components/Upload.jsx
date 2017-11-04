@@ -16,11 +16,9 @@ class Upload extends React.Component {
   uploadToBox () {
     var form = new FormData();
 
-    var fileToUpload = document.getElementById('myFile').files[0];
+    var fileToUpload = document.getElementById('file').files[0];
     
     form.append('file', fileToUpload)
-
-
     form.append('parent_id', '41430063118')
 
     $.ajax({
@@ -45,22 +43,12 @@ class Upload extends React.Component {
 
   render() {
     let files;
-    if (this.state.files) {
-      files = this.state.files.map((file, i) => {
-        return(
-          <p onClick={() => this.previewDoc(file[1])} key={i}>
-            {file[0]}
-          </p>
-        )
-      })
-    }
 
     return (
       <div className="container-fluid" id="upload">
           <input
             onChange={() => this.uploadToBox()}
             type="file"
-            id="myFile"
             className="filestyle" 
             data-classButton="btn btn-primary" 
             data-input="false" 
